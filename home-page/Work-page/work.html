@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects Showcase | Ja</title>
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <script src="../js/main.js" defer></script>
+  <style>
+    .container { max-width: 1000px; margin: 100px auto 40px; padding: 0 20px; color: white; }
+    h1 { font-size: 2.5rem; margin-bottom: 30px; }
+    .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .project-card { background: #1b1b1b; border: 1px solid #363636; border-radius: 6px; padding: 25px; transition: transform 0.2s; }
+    .project-card:hover { transform: translateY(-5px); }
+    .project-card h3 { font-size: 1.4rem; margin-bottom: 10px; }
+    .project-card p { color: #ccc; line-height: 1.6; margin-bottom: 15px; font-size: 0.95rem; }
+    .tech-used { font-size: 0.85rem; color: #aaa; font-family: monospace; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="menu">
+      <div class="author"><a href="../index.html">Ja</a></div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../About-Me/about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="../Contact-page/contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger-menu" aria-label="Toggle Menu">
+        <svg xmlns="http://w3.org" viewBox="0 0 24 24" style="fill: white; width: 100%; height: 100%;">
+          <path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Featured Engineering Work</h1>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Secure Full-Stack Web Infrastructure</h3>
+        <p>Architected responsive web entryways engineered directly to mitigate core software and interface parameter security bugs.</p>
+        <div class="tech-used">HTML5 / CSS3 / JavaScript</div>
+      </div>
+      <div class="project-card">
+        <h3>Algorithmic System Utility Compilation</h3>
+        <p>Built memory-efficient programmatic simulation engines focusing on rigorous engineering optimizations and logical challenges.</p>
+        <div class="tech-used">C Language / Native Make Build Engine</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
